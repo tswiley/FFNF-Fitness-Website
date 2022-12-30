@@ -82,8 +82,16 @@ h2 {
 .wrapper1 {
     display: flex;
     width: 100%;
-    justify-content: flex-end;
+    justify-content: space-between;
+    flex-direction: row-reverse;
     background-color: #F2F2F2;
+}
+
+.meal {
+    display: flex;
+    transform: skew(-13deg,0deg);
+    width: 50%;
+    height: 500px;
 }
 .nutrition-description {
     text-align: right;
@@ -125,10 +133,11 @@ h2 {
     font-size: 24px;
 }
 
-img {
-    width: 600px;
-    height: 300px;
+.Femalebarbell {
+    width: 50%;
+    height: 500px;
     padding-right: 15px;
+    transform: skew(13deg,0deg);
 }
 
 .wrapper3 {
