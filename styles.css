@@ -116,6 +116,7 @@ h2 {
     text-align: left;
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 .fitness-description {
     padding-left: 15px;
@@ -133,11 +134,12 @@ h2 {
     font-size: 24px;
 }
 
-.Femalebarbell {
-    width: 50%;
+.deadlift {
+    max-width: 50%;
     height: 500px;
     padding-right: 15px;
-    transform: skew(13deg,0deg);
+    transform:skew(13deg);
+;
 }
 
 .wrapper3 {
