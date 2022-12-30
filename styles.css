@@ -140,8 +140,6 @@ h2 {
     height: 500px;
     padding-right: 15px;
     transform: skew(13deg)
-    
-;
 }
 
 .wrapper3 {
@@ -183,3 +181,5 @@ footer {
     text-align: center;
     background-color: lightgray;
 }
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)
