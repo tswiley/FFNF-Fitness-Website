@@ -79,6 +79,11 @@ h2 {
     font-size: 32px;
 }
 
+.wrapper1 {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
 .nutrition-description {
     display: flex;
     justify-content: flex-end;
